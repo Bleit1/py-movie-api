@@ -47,7 +47,7 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-ROOT_URLCONF = "movie_api.urls"
+ROOT_URLCONF = "movie_api_cinema.urls"
 
 TEMPLATES = [
     {
@@ -65,7 +65,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "movie_api.wsgi.application"
+WSGI_APPLICATION = "movie_api_cinema.wsgi.application"
 
 
 # Database
